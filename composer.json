@@ -1,0 +1,17 @@
+{
+    "name": "mihaildev/yii2-ckeditor",
+    "keywords": ["yii", "wysiwyg", "editor", "CKEditor"],
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Mihail",
+            "email": "mihail.kucher@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"mihaildev\\ckeditor\\": ""}
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    }
+}
