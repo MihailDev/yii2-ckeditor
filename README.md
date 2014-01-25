@@ -38,5 +38,7 @@ echo $form->field($post, 'content')->widget(CKEditor::className(),[
 ## Полезные ссылки
 
 CKEditor Api - http://docs.ckeditor.com/
+
 CKEditor Примеры - http://nightly.ckeditor.com/
+
 Файл Менеджер ElFinder - https://github.com/MihailDev/yii2-elfinder
