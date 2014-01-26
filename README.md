@@ -1,3 +1,27 @@
+CKEditor Расширение для Yii 2
+===========================
+
+CKEditor — свободный WYSIWYG-редактор, который может быть использован на веб-страницах.
+
+
+## Установка
+
+Удобнее всего установить это расширение через [composer](http://getcomposer.org/download/).
+
+Либо запустить
+
+```
+php composer.phar require --prefer-dist mihaildev/yii2-ckeditor "*"
+```
+
+или добавить
+
+```json
+"mihaildev/yii2-ckeditor": "*"
+```
+
+в разделе `require` вашего composer.json файла.
+
 ## Использование
 
 ```php
