@@ -7,7 +7,6 @@
 namespace mihaildev\ckeditor;
 
 use yii\web\AssetBundle;
-use yii\web\View;
 
 class Assets extends AssetBundle{
 

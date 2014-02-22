@@ -5,6 +5,7 @@
     "homepage": "https://github.com/MihailDev/yii2-ckeditor",
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
+    "minimum-stability" : "dev",
     "authors": [
         {
             "name": "Mihail",

@@ -25,27 +25,14 @@ php composer.phar require --prefer-dist mihaildev/yii2-ckeditor "*"
 ## Использование
 
 ```php
-use mihaildev\ckeditor\Widget as CKEditor;
+use mihaildev\ckeditor\CKEditor;
 use yii\helpers\Html;
 
-echo Html::textarea('my_textarea', '', ['id' => 'my_textarea_id'])
-
 CKEditor::widget([
-    'id' => 'my_textarea_id',
     'editorOptions' => [
         'preset' => 'full', //разработанны стандартные настройки basic, standart, full данную возможность не обязательно использовать
         'inline' => false, //по умолчанию false
     ]
-]);
-
-//или так
-
-echo CKEditor::textarea('my_textarea', '', [
-    'editorOptions' => [
-        'preset' => 'full', //разработанны стандартные настройки basic, standart, full данную возможность не обязательно использовать
-        'inline' => false, //по умолчанию false
-    ],
-    'inputOptions' => ['class' => 'someclass']
 ]);
 
 //или c ActiveForm
@@ -55,7 +42,6 @@ echo $form->field($post, 'content')->widget(CKEditor::className(),[
         'preset' => 'full', //разработанны стандартные настройки basic, standart, full данную возможность не обязательно использовать
         'inline' => false, //по умолчанию false
     ],
-    'inputOptions' => ['class' => 'someclass']
 ]);
 ```
 
