@@ -30,7 +30,7 @@ use yii\helpers\Html;
 
 CKEditor::widget([
     'editorOptions' => [
-        'preset' => 'full', //разработанны стандартные настройки basic, standart, full данную возможность не обязательно использовать
+        'preset' => 'full', //разработанны стандартные настройки basic, standard, full данную возможность не обязательно использовать
         'inline' => false, //по умолчанию false
     ]
 ]);
@@ -39,7 +39,7 @@ CKEditor::widget([
 
 echo $form->field($post, 'content')->widget(CKEditor::className(),[
     'editorOptions' => [
-        'preset' => 'full', //разработанны стандартные настройки basic, standart, full данную возможность не обязательно использовать
+        'preset' => 'full', //разработанны стандартные настройки basic, standard, full данную возможность не обязательно использовать
         'inline' => false, //по умолчанию false
     ],
 ]);

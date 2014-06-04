@@ -9,6 +9,7 @@ namespace mihaildev\ckeditor;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\web\JsExpression;
 use yii\web\View;
 use yii\helpers\Json;
 use yii\widgets\InputWidget;
@@ -128,6 +129,9 @@ class CKEditor extends InputWidget{
             echo Html::textarea($this->name, $this->value, $this->options);
         }
         echo Html::endTag('div');
+
+		if(!isset($this->editorOptions['on']['instanceReady']))
+			$this->editorOptions['on']['instanceReady'] = new JsExpression("function( ev ){jQuery(CKEDITOR.instances[".Json::encode($this->options['id'])."].container.$).mouseleave(function() {CKEDITOR.instances[".Json::encode($this->options['id'])."].updateElement();});}");
 
         if($this->_inline){
             $JavaScript = "CKEDITOR.inline(";
