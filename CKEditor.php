@@ -131,7 +131,7 @@ class CKEditor extends InputWidget{
         echo Html::endTag('div');
 
 		if(!isset($this->editorOptions['on']['instanceReady']))
-			$this->editorOptions['on']['instanceReady'] = new JsExpression("function( ev ){jQuery(CKEDITOR.instances[".Json::encode($this->options['id'])."].container.$).mouseleave(function() {CKEDITOR.instances[".Json::encode($this->options['id'])."].updateElement();});}");
+			$this->editorOptions['on']['instanceReady'] = new JsExpression("function( ev ){jQuery(CKEDITOR.instances[".Json::encode($this->options['id'])."].container.$).mouseleave(function() {CKEDITOR.instances[".Json::encode($this->options['id'])."].updateElement();});CKEDITOR.instances[".Json::encode($this->options['id'])."].on('blur', function() {CKEDITOR.instances[".Json::encode($this->options['id'])."].updateElement();})}");
 
         if($this->_inline){
             $JavaScript = "CKEDITOR.inline(";
