@@ -5,7 +5,6 @@
     "homepage": "https://github.com/MihailDev/yii2-ckeditor",
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
-    "minimum-stability" : "dev",
     "authors": [
         {
             "name": "Mihail",
@@ -18,6 +17,7 @@
         "psr-4": {"mihaildev\\ckeditor\\": ""}
     },
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+	    "ckeditor/ckeditor": "4.4.0"
     }
 }
