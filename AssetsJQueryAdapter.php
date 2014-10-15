@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 
 class AssetsJQueryAdapter extends AssetBundle{
 
-	public $sourcePath = '@vendor/ckeditor/ckeditor/adapters';
+	public $sourcePath = '@mihaildev/ckeditor/editor/adapters';
 
     public $js = [
         'jquery.js',

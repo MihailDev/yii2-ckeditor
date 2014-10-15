@@ -18,7 +18,6 @@
         "psr-4": {"mihaildev\\ckeditor\\": ""}
     },
     "require": {
-        "yiisoft/yii2": "*",
-	    "ckeditor/ckeditor": "dev-full/stable"
+        "yiisoft/yii2": "*"
     }
 }
