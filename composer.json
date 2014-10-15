@@ -19,6 +19,6 @@
     },
     "require": {
         "yiisoft/yii2": "*",
-	    "ckeditor/ckeditor": "dev-master#f702e7a87647fd1642b3399be4420d8cbcb12d34"
+	    "ckeditor/ckeditor": "dev-full/stable"
     }
 }
