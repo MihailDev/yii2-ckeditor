@@ -18,6 +18,6 @@
     },
     "require": {
         "yiisoft/yii2": "*",
-	    "ckeditor/ckeditor": "4.4.0"
+	    "ckeditor/ckeditor": "dev-full/4.4.x"
     }
 }
