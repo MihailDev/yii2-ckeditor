@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87f76617-466c-4fb3-8c78-e19c03f9d53d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/uploads/243c616.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/uploads/3137e2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/uploads/388bc7e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-ico-browser.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-block.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-browser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-bug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-close-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-close-grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-coffee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-credits.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-disable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-faq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-hideext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-images.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-password.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-qedit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-qtrash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-showext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-updates.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-upload-big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-upload-grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-use.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-version.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/img/cd-icon-warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/font/fontello.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/font/fontello.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/font/fontello.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/img/github-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/widget/images/handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/img/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/img/header-separator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/image2/assets/image1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/image2/assets/image2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/assets/inlineall/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/img/navigation-tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/assets/sample.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/font/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/lib/codemirror/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_colorpanel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/config/_colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/config/_config.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/config/_defaults.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_elementspath.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_mainui.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_menu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_panel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_presets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_richcombo.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/_toolbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/sample/js/analytics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/appendto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autosave/css/autosave.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autosave/css/autosave.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/sample/css/bootstrapck-sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/sample/bootstrapck-sample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/check_permission.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/font/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/datafiltering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/dialog/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/dialog/dialog.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/ie/dialog_ie.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/ie7/dialog_ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/ie8/dialog_ie8.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/iequirks/dialog_iequirks.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/opera/dialog_opera.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autosave/js/difflib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autosave/js/diffview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/divreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/components/editor.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/gecko/editor_gecko.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/ie/editor_ie.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/ie7/editor_ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/ie8/editor_ie8.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/.temp/css/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/scss/browser-specific/iequirks/editor_iequirks.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/enterkey/enterkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autosave/js/extensions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/css/fontello.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/font/fontello.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/wysiwygarea/fullpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/js/fulltoolbareditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/image2/image2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/image2/dialogs/image2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/imgbrowser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/imgdelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/imgupload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/inlineall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/inlinebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/inlinetextarea.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/lib/codemirror/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/sample/js/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/dist/jquery.lazyload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/dist/js.cookie-2.0.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autosave/js/jsdiff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/assets/uilanguages/languages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/loginindex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autosave/js/lz-string-1.3.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/magicline/magicline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/autosave/js/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/dialog/assets/my_dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/lib/codemirror/neo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/new.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/htmlwriter/outputforflash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/htmlwriter/outputhtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/assets/outputxhtml/outputxhtml.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/pluginconfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/assets/posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/skins/bootstrapck/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/readonly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/replacebyclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/replacebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/js/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/sample_posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/css/samples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/js/sf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/styles.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/dist/sweetalert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/imageuploader/dist/sweetalert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/tabindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/toolbar/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/js/toolbarmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/toolbarconfigurator/js/toolbartextmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/uicolor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/uilanguages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/samples/old/xhtmlstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/yii2-ckeditor.iml" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\af.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\bg.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\bn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\bs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\cs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\cy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\da.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\el.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\eo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\es.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\et.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\eu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\fa.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\fo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\fr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\gl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\gu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\he.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\hi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\hr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\id.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\is.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\it.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ja.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ka.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\km.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ko.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ku.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\lt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\lv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\mk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\mn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ms.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\nb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\no.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\pl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\pt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\si.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\sk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\sl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\sq.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\sr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\sv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\th.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\tr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\tt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\ug.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\uk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\vi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\lang\zh.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\scayt\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\scayt\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\scayt\dialogs\options.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\scayt\dialogs\toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\ar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\bg.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\cs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\cy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\el.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\en.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\eo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\es.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\et.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\fa.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\fr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\gl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\he.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\hr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\hu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\id.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\it.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\ja.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\km.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\ku.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\lv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\nb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\no.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\pl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\pt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\ru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\si.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\sk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\sl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\sq.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\sv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\th.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\tr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\tt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\ug.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\uk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\vi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\lang\zh.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\specialchar\dialogs\specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\wsc\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\wsc\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\wsc\dialogs\ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\wsc\dialogs\tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\wsc\dialogs\wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\wsc\dialogs\wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\plugins\wsc\dialogs\wsc_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\api.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\appendto.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\assets\inlineall\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\assets\outputxhtml\outputxhtml.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\assets\posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\assets\sample.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\assets\uilanguages\languages.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\datafiltering.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\divreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\inlineall.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\inlinebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\inlinetextarea.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\dialog\assets\my_dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\dialog\dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\enterkey\enterkey.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\htmlwriter\assets\outputforflash\outputforflash.fla" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\htmlwriter\assets\outputforflash\outputforflash.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\htmlwriter\assets\outputforflash\swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\htmlwriter\outputforflash.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\htmlwriter\outputhtml.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\magicline\magicline.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\toolbar\toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\plugins\wysiwygarea\fullpage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\readonly.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\replacebyclass.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\replacebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\sample.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\sample.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\sample_posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\tabindex.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\uicolor.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\uilanguages.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\samples\xhtmlstyle.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\editor.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\icons.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\hidpi\close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\hidpi\lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\hidpi\lock.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\hidpi\refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\lock.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\images\refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\boliver\Downloads\wamp\www\yii2-ckeditor\editor\skins\moono\readme.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/images/hiddenfield.gif" afterPath="$PROJECT_DIR$/editor/plugins/forms/images/hiddenfield.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/icons.png" afterPath="$PROJECT_DIR$/editor/plugins/icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/icons_hidpi.png" afterPath="$PROJECT_DIR$/editor/plugins/icons_hidpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/image/images/noimage.png" afterPath="$PROJECT_DIR$/editor/plugins/image/images/noimage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/pagebreak/images/pagebreak.gif" afterPath="$PROJECT_DIR$/editor/plugins/pagebreak/images/pagebreak.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets.php" afterPath="$PROJECT_DIR$/Assets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssetsJQueryAdapter.php" afterPath="$PROJECT_DIR$/AssetsJQueryAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/CHANGES.md" afterPath="$PROJECT_DIR$/editor/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CKEditor.php" afterPath="$PROJECT_DIR$/CKEditor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/LICENSE.md" afterPath="$PROJECT_DIR$/editor/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/about/dialogs/about.js" afterPath="$PROJECT_DIR$/editor/plugins/about/dialogs/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/link/dialogs/anchor.js" afterPath="$PROJECT_DIR$/editor/plugins/link/dialogs/anchor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/build-config.js" afterPath="$PROJECT_DIR$/editor/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/dialogs/button.js" afterPath="$PROJECT_DIR$/editor/plugins/forms/dialogs/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/dialogs/checkbox.js" afterPath="$PROJECT_DIR$/editor/plugins/forms/dialogs/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/ckeditor.js" afterPath="$PROJECT_DIR$/editor/ckeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/colordialog/dialogs/colordialog.js" afterPath="$PROJECT_DIR$/editor/plugins/colordialog/dialogs/colordialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/config.js" afterPath="$PROJECT_DIR$/editor/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/contents.css" afterPath="$PROJECT_DIR$/editor/contents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/editor/plugins/pastefromword/filter/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/templates/templates/default.js" afterPath="$PROJECT_DIR$/editor/plugins/templates/templates/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/dialog/dialogDefinition.js" afterPath="$PROJECT_DIR$/editor/plugins/dialog/dialogDefinition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/div/dialogs/div.js" afterPath="$PROJECT_DIR$/editor/plugins/div/dialogs/div.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/lang/en.js" afterPath="$PROJECT_DIR$/editor/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/find/dialogs/find.js" afterPath="$PROJECT_DIR$/editor/plugins/find/dialogs/find.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/flash/dialogs/flash.js" afterPath="$PROJECT_DIR$/editor/plugins/flash/dialogs/flash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/dialogs/form.js" afterPath="$PROJECT_DIR$/editor/plugins/forms/dialogs/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/dialogs/hiddenfield.js" afterPath="$PROJECT_DIR$/editor/plugins/forms/dialogs/hiddenfield.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/lang/hu.js" afterPath="$PROJECT_DIR$/editor/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/iframe/dialogs/iframe.js" afterPath="$PROJECT_DIR$/editor/plugins/iframe/dialogs/iframe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/editor/plugins/image/dialogs/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/samples/index.html" afterPath="$PROJECT_DIR$/editor/samples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/adapters/jquery.js" afterPath="$PROJECT_DIR$/editor/adapters/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/js.js" afterPath="$PROJECT_DIR$/editor/js.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/link/dialogs/link.js" afterPath="$PROJECT_DIR$/editor/plugins/link/dialogs/link.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/liststyle/dialogs/liststyle.js" afterPath="$PROJECT_DIR$/editor/plugins/liststyle/dialogs/liststyle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/clipboard/dialogs/paste.js" afterPath="$PROJECT_DIR$/editor/plugins/clipboard/dialogs/paste.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/preview/preview.html" afterPath="$PROJECT_DIR$/editor/plugins/preview/preview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/dialogs/radio.js" afterPath="$PROJECT_DIR$/editor/plugins/forms/dialogs/radio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/dialogs/select.js" afterPath="$PROJECT_DIR$/editor/plugins/forms/dialogs/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/smiley/dialogs/smiley.js" afterPath="$PROJECT_DIR$/editor/plugins/smiley/dialogs/smiley.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/styles.js" afterPath="$PROJECT_DIR$/editor/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/editor/plugins/table/dialogs/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/tabletools/dialogs/tableCell.js" afterPath="$PROJECT_DIR$/editor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/templates/dialogs/templates.css" afterPath="$PROJECT_DIR$/editor/plugins/templates/dialogs/templates.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/templates/dialogs/templates.js" afterPath="$PROJECT_DIR$/editor/plugins/templates/dialogs/templates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/dialogs/textarea.js" afterPath="$PROJECT_DIR$/editor/plugins/forms/dialogs/textarea.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/forms/dialogs/textfield.js" afterPath="$PROJECT_DIR$/editor/plugins/forms/dialogs/textfield.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/tt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/editor/plugins/a11yhelp/dialogs/lang/zh.js" />
+    </list>
+    <ignored path="yii2-ckeditor.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yii2-ckeditor" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Assets.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5172415">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pluginconfig.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/pluginconfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.3103447">
+              <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+              <folding>
+                <marker date="1448109479803" expanded="true" signature="1158:1338" placeholder="..." />
+                <marker date="1448109479803" expanded="true" signature="1804:1982" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4036036">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imgupload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/imgupload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6896552">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CKEditor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CKEditor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5172415">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+              <folding>
+                <element signature="e#77#105#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/plugin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imgbrowser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/imgbrowser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.2068965">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/AssetsJQueryAdapter.php" />
+        <option value="$PROJECT_DIR$/editor/plugins/imageuploader/plugin.js" />
+        <option value="$PROJECT_DIR$/editor/js.js" />
+        <option value="$PROJECT_DIR$/Assets.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/editor/plugins/imageuploader/imgupload.php" />
+        <option value="$PROJECT_DIR$/editor/plugins/imageuploader/imgbrowser.php" />
+        <option value="$PROJECT_DIR$/CKEditor.php" />
+        <option value="$PROJECT_DIR$/editor/plugins/imageuploader/pluginconfig.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imageuploader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yii2-bajadev" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87f76617-466c-4fb3-8c78-e19c03f9d53d" name="Default" comment="" />
+      <created>1448101898565</created>
+      <option name="number" value="Default" />
+      <updated>1448101898565</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/editor/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5172415">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsJQueryAdapter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.413794">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7037036">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.036036">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447340124000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/LICENSE.md">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9520547">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/check_permission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/imgupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6896552">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/imgbrowser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2068965">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CKEditor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5172415">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="e#77#105#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/plugins/imageuploader/pluginconfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3103447">
+          <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+          <folding>
+            <marker date="1448109479803" expanded="true" signature="1158:1338" placeholder="..." />
+            <marker date="1448109479803" expanded="true" signature="1804:1982" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4036036">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

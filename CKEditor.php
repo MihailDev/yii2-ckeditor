@@ -4,11 +4,11 @@
  * Time: 1:18
  */
 
-namespace mihaildev\ckeditor;
-
+namespace bajadev\ckeditor;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\web\JsExpression;
 use yii\web\View;
 use yii\helpers\Json;
@@ -17,6 +17,8 @@ use yii\widgets\InputWidget;
 class CKEditor extends InputWidget{
     public $editorOptions = [];
     public $containerOptions = [];
+    public $filebrowserBrowseUrl;
+    public $filebrowserUploadUrl;
     private $_inline = false;
 
     public function init()
@@ -27,6 +29,10 @@ class CKEditor extends InputWidget{
             $this->_inline = $this->editorOptions['inline'];
             unset($this->editorOptions['inline']);
         }
+
+        $this->editorOptions['filebrowserBrowseUrl'] = $this->filebrowserBrowseUrl;
+        $this->editorOptions['filebrowserUploadUrl'] = $this->filebrowserUploadUrl;
+
 
         if (array_key_exists('preset', $this->editorOptions)) {
             if($this->editorOptions['preset'] == 'basic'){
@@ -98,9 +104,7 @@ class CKEditor extends InputWidget{
         $options['toolbarGroups'] = [
             ['name' => 'clipboard', 'groups' => ['mode','undo', 'selection', 'clipboard', 'doctools']],
             ['name' => 'editing', 'groups' => ['find', 'spellchecker', 'tools', 'about']],
-            '/',
             ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align']],
-            ['name' => 'forms'],
             '/',
             ['name' => 'styles'],
             ['name' => 'blocks'],
@@ -131,11 +135,11 @@ class CKEditor extends InputWidget{
 
         echo Html::endTag('div');
 		$js = [
-			'mihaildev.ckEditor.registerOnChange('.Json::encode($this->options['id']).');'
+			'bajadev.ckEditor.registerOnChange('.Json::encode($this->options['id']).');'
 		];
 
 		if(isset($this->editorOptions['filebrowserUploadUrl']))
-			$js[] = "mihaildev.ckEditor.registerCsrf();";
+			$js[] = "bajadev.ckEditor.registerCsrf();";
 
 		if(!isset($this->editorOptions['on']['instanceReady']))
 			$this->editorOptions['on']['instanceReady'] = new JsExpression("function( ev ){".implode(' ', $js)."}");

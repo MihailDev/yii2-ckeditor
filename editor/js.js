@@ -1,8 +1,8 @@
-if (typeof mihaildev == "undefined" || !mihaildev) {
-	var mihaildev = {};
+if (typeof bajadev == "undefined" || !bajadev) {
+	var bajadev = {};
 }
 
-mihaildev.ckEditor = {
+bajadev.ckEditor = {
 	registerOnChange: function(id){
 		CKEDITOR.instances[id] && CKEDITOR.instances[id].on('change', function () {
 			CKEDITOR.instances[id].updateElement();

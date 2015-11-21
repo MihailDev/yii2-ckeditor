@@ -4,12 +4,12 @@
  * Time: 1:06
  */
 
-namespace mihaildev\ckeditor;
+namespace bajadev\ckeditor;
 
 use yii\web\AssetBundle;
 
 class Assets extends AssetBundle{
-	public $sourcePath = '@mihaildev/ckeditor/editor';
+	public $sourcePath = '@vendor/bajadev/yii2-ckeditor/editor';
 
     public $js = [
         'ckeditor.js',
