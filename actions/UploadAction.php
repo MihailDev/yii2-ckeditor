@@ -4,6 +4,9 @@ namespace bajadev\ckeditor\actions;
 
 use Yii;
 use yii\web\ViewAction;
+use yii\helpers\Inflector;
+use Imagine\Image\Box;
+use yii\imagine\Image;
 
 /**
  * Class BrowseAction
@@ -14,6 +17,8 @@ class UploadAction extends ViewAction
 
     public $url;
     public $path;
+    public $maxWidth = 800;
+    public $maxHeight = 800;
 
     public function init()
     {
@@ -33,24 +38,29 @@ class UploadAction extends ViewAction
             $imageFileType = strtolower(pathinfo($image->name, PATHINFO_EXTENSION));
             $allowed = ['png', 'jpg', 'gif', 'jpeg'];
             if(!empty($image) and in_array($imageFileType, $allowed)) {
-                $image->saveAs($this->getPath().$image->name);
-                if (isset($_GET['CKEditorFuncNum'])) {
-                    $CKEditorFuncNum = $_GET['CKEditorFuncNum'];
-                    $ckfile = $this->getUrl().$image->name;
-                    echo "<script type='text/javascript'>window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$ckfile', '');</script>";
-                    exit;
-                }
+                $fileName = Inflector::slug(str_replace($imageFileType, '',$image->name), '_');
+                $fileName = $fileName.'.'.$imageFileType;
+                $image->saveAs($this->getPath().$fileName);
+                Image::frame($this->getPath().$fileName)
+                    ->thumbnail(new Box($this->maxWidth, $this->maxHeight))
+                    ->save($this->getPath().$fileName, ['quality' => 100]);
             }
 
         }
 
     }
 
+    /**
+     * @return string
+     */
     private function getUrl()
     {
         return Yii::getAlias($this->url);
     }
 
+    /**
+     * @return string
+     */
     private function getPath()
     {
         return Yii::getAlias($this->path);

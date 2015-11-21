@@ -17,8 +17,6 @@ use yii\widgets\InputWidget;
 class CKEditor extends InputWidget{
     public $editorOptions = [];
     public $containerOptions = [];
-    public $filebrowserBrowseUrl;
-    public $filebrowserUploadUrl;
     private $_inline = false;
 
     public function init()
@@ -30,19 +28,13 @@ class CKEditor extends InputWidget{
             unset($this->editorOptions['inline']);
         }
 
-        $this->editorOptions['filebrowserBrowseUrl'] = $this->filebrowserBrowseUrl;
-        $this->editorOptions['filebrowserUploadUrl'] = $this->filebrowserUploadUrl;
+        if (array_key_exists('inline', $this->editorOptions)) {
+            $this->_inline = $this->editorOptions['inline'];
+            unset($this->editorOptions['inline']);
+        }
 
-
-        if (array_key_exists('preset', $this->editorOptions)) {
-            if($this->editorOptions['preset'] == 'basic'){
-                $this->presetBasic();
-            }elseif($this->editorOptions['preset'] == 'standard'){
-                $this->presetStandard();
-            }elseif($this->editorOptions['preset'] == 'full'){
-                $this->presetFull();
-            }
-            unset($this->editorOptions['preset']);
+        if (array_key_exists('filebrowserBrowseUrl', $this->editorOptions)) {
+            $this->editorOptions['extraPlugins'] = 'imageuploader';
         }
 
         if($this->_inline && !isset($this->editorOptions['height']))

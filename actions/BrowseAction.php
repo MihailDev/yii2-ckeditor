@@ -4,7 +4,10 @@ namespace bajadev\ckeditor\actions;
 
 use Yii;
 use yii\web\ViewAction;
+use yii\helpers\Inflector;
 use bajadev\ckeditor\BrowseAssets;
+use Imagine\Image\Box;
+use yii\imagine\Image;
 
 /**
  * Class BrowseAction
@@ -15,6 +18,8 @@ class BrowseAction extends ViewAction
 
     public $url;
     public $path;
+    public $maxWidth = 800;
+    public $maxHeight = 800;
 
     /**
      * @inheritdoc
@@ -36,7 +41,12 @@ class BrowseAction extends ViewAction
                 $imageFileType = strtolower(pathinfo($image->name, PATHINFO_EXTENSION));
                 $allowed = ['png', 'jpg', 'gif', 'jpeg'];
                 if(!empty($image) and in_array($imageFileType, $allowed)) {
-                    $image->saveAs($this->getPath().$image->name);
+                    $fileName = Inflector::slug(str_replace($imageFileType, '',$image->name), '_');
+                    $fileName = $fileName.'.'.$imageFileType;
+                    $image->saveAs($this->getPath().$fileName);
+                    Image::frame($this->getPath().$fileName)
+                        ->thumbnail(new Box($this->maxWidth, $this->maxHeight))
+                        ->save($this->getPath().$fileName, ['quality' => 100]);
                 }
             }
         }
@@ -50,16 +60,25 @@ class BrowseAction extends ViewAction
         ]);
     }
 
+    /**
+     * @return string
+     */
     private function getUrl()
     {
         return Yii::getAlias($this->url);
     }
 
+    /**
+     * @return string
+     */
     private function getPath()
     {
         return Yii::getAlias($this->path);
     }
 
+    /**
+     * @return string
+     */
     private function getFileStyle()
     {
         if (!isset($_COOKIE["file_style"])) {
@@ -69,6 +88,9 @@ class BrowseAction extends ViewAction
         }
     }
 
+    /**
+     * @return string
+     */
     private function getFileExt()
     {
         if (!isset($_COOKIE["file_extens"])) {
@@ -78,6 +100,9 @@ class BrowseAction extends ViewAction
         }
     }
 
+    /**
+     *
+     */
     private function loadImages()
     {
 
