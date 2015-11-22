@@ -44,6 +44,11 @@ class UploadAction extends ViewAction
                 Image::frame($this->getPath().$fileName)
                     ->thumbnail(new Box($this->maxWidth, $this->maxHeight))
                     ->save($this->getPath().$fileName, ['quality' => 100]);
+
+                $CKEditorFuncNum = $_GET['CKEditorFuncNum'];
+                $ckfile = $this->getUrl().$fileName;
+                echo "<script type='text/javascript'>window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$ckfile', '');</script>";
+                exit;
             }
 
         }
