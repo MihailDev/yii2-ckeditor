@@ -34,5 +34,6 @@ or
                 'inline' => false,
                 'filebrowserBrowseUrl' => 'browse-images',
                 'filebrowserUploadUrl' => 'upload-images',
+				'extraPlugins' => 'imageuploader',
             ],
         ]); ?>
