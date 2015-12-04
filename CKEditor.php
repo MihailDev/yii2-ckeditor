@@ -33,10 +33,6 @@ class CKEditor extends InputWidget{
             unset($this->editorOptions['inline']);
         }
 
-        if (array_key_exists('filebrowserBrowseUrl', $this->editorOptions)) {
-            $this->editorOptions['extraPlugins'] = 'imageuploader';
-        }
-
         if($this->_inline && !isset($this->editorOptions['height']))
             $this->editorOptions['height'] = 100;
 
