@@ -41,9 +41,10 @@ class UploadAction extends ViewAction
                 $fileName = Inflector::slug(str_replace($imageFileType, '',$image->name), '_');
                 $fileName = $fileName.'.'.$imageFileType;
                 $image->saveAs($this->getPath().$fileName);
-                Image::frame($this->getPath().$fileName)
-                    ->thumbnail(new Box($this->maxWidth, $this->maxHeight))
-                    ->save($this->getPath().$fileName, ['quality' => 100]);
+				$imagine = Image::getImagine();
+				$photo = $imagine->open($this->getPath().$fileName);
+				$photo->thumbnail(new Box($this->maxWidth, $this->maxHeight))
+					->save($this->getPath().$fileName, ['quality' => 90]);
                 if(isset($_GET['CKEditorFuncNum'])) {
                     $CKEditorFuncNum = $_GET['CKEditorFuncNum'];
                     $ckfile = $this->getUrl() . $fileName;
