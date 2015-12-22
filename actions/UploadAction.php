@@ -39,7 +39,10 @@ class UploadAction extends ViewAction
             $allowed = ['png', 'jpg', 'gif', 'jpeg'];
             if(!empty($image) and in_array($imageFileType, $allowed)) {
                 $fileName = Inflector::slug(str_replace($imageFileType, '',$image->name), '_');
-                $fileName = $fileName.'.'.$imageFileType;
+                //$fileName = $fileName.'.'.$imageFileType;
+                $fileName    = hash('md5', Yii::getAlias($fileName));
+                $rand        = rand(10000, 99999);
+                $fileName = $rand . '_' . $fileName . '.' . $imageFileType;
                 $image->saveAs($this->getPath().$fileName);
 				$imagine = Image::getImagine();
 				$photo = $imagine->open($this->getPath().$fileName);
