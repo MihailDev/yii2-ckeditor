@@ -13,6 +13,7 @@ use yii\web\JsExpression;
 use yii\web\View;
 use yii\helpers\Json;
 use yii\widgets\InputWidget;
+use Yii;
 
 class CKEditor extends InputWidget{
     public $editorOptions = [];
@@ -21,8 +22,7 @@ class CKEditor extends InputWidget{
 
     public function init()
     {
-        parent::init();
-
+        $this->registerTranslations();
         if (array_key_exists('inline', $this->editorOptions)) {
             $this->_inline = $this->editorOptions['inline'];
             unset($this->editorOptions['inline']);
@@ -38,7 +38,26 @@ class CKEditor extends InputWidget{
 
         if($this->_inline && !isset($this->containerOptions['id']))
             $this->containerOptions['id'] = $this->id.'_inline';
+        parent::init();
     }
+
+    /**
+     * Register widget translations.
+     */
+    public function registerTranslations()
+    {
+        if (!isset(Yii::$app->i18n->translations['bajadev/ckeditor']) && !isset(Yii::$app->i18n->translations['bajadev/ckeditor/*'])) {
+            Yii::$app->i18n->translations['bajadev/ckeditor'] = [
+                'class' => 'yii\i18n\PhpMessageSource',
+                'basePath' => '@vendor/bajadev/yii2-ckeditor/messages',
+                'forceTranslation' => true,
+                'fileMap' => [
+                    'bajadev/ckeditor' => 'ckeditor.php'
+                ]
+            ];
+        }
+    }
+
 
     private function presetBasic(){
         $options['height'] = 100;
