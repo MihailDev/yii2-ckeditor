@@ -20,6 +20,7 @@ class BrowseAssets extends AssetBundle{
 
     public $css = [
         'assets/styles.css',
+        'assets/ckeditor.css'
     ];
 
     public $depends = [

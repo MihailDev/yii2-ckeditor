@@ -8,5 +8,6 @@ return [
     'Close' => 'Close',
     'Upload' => 'Upload',
     'Please choose image' => 'Please choose image',
-    'File upload stopped by extension' => 'File upload stopped by extension'
+    'File upload stopped by extension' => 'File upload stopped by extension',
+    'Browse images' => 'Browse images'
 ];

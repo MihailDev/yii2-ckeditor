@@ -1,0 +1,13 @@
+.base-btn {
+    color: #fff;
+    display: block;
+}
+.base-btn.upload-btn {
+    float: left;
+    font-size: 20px;
+}
+
+.base-btn.close-btn {
+    float: right;
+    font-size: 20px;
+}

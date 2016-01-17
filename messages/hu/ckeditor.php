@@ -8,5 +8,6 @@ return [
     'Close' => 'Bezárás',
     'Upload' => 'Feltöltés',
     'Please choose image' => 'Kérem válasszon képet',
-    'File upload stopped by extension' => 'Nem engedélyezett kiterjesztés'
+    'File upload stopped by extension' => 'Nem engedélyezett kiterjesztés',
+    'Browse images' => 'Képek tallózása'
 ];

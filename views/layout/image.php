@@ -17,10 +17,10 @@ use yii\helpers\Html;
     </script>	
     <?php $this->head() ?>
 </head>
-<body ontouchstart="">
+<body>
 <?php $this->beginBody() ?>
 <div class="wrap">
-    <div class="container">
+    <div class="containe-fluidr">
         <?= $content ?>
     </div>
 </div>
