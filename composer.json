@@ -1,8 +1,8 @@
 {
-    "name": "mihaildev/yii2-ckeditor",
+    "name": "spirit-of-wars/yii2-ckeditor",
     "keywords": ["yii", "wysiwyg", "editor", "CKEditor"],
     "description": "Yii2 CKEditor",
-    "homepage": "https://github.com/MihailDev/yii2-ckeditor",
+    "homepage": "https://github.com/spirit-of-wars/yii2-ckeditor/",
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
 	"minimum-stability":"stable",
@@ -15,7 +15,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"mihaildev\\ckeditor\\": ""}
+        "psr-4": {"mihaildev\\ckeditor2\\": ""}
     },
     "require": {
         "yiisoft/yii2": "*"
