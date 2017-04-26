@@ -167,19 +167,6 @@ class CKEditor extends InputWidget
     {
         $options['height'] = 400;
 
-        $options['toolbarGroups'] = [
-            ['name' => 'clipboard', 'groups' => ['mode', 'undo', 'selection', 'clipboard', 'doctools']],
-            ['name' => 'editing', 'groups' => ['find', 'spellchecker', 'tools', 'about']],
-            ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align']],
-            '/',
-            ['name' => 'styles'],
-            ['name' => 'blocks'],
-            '/',
-            ['name' => 'basicstyles', 'groups' => ['basicstyles', 'colors', 'cleanup']],
-            ['name' => 'links', 'groups' => ['links', 'insert']],
-            ['name' => 'others'],
-        ];
-
         if ($this->_inline) {
             $options['extraPlugins'] = 'sourcedialog';
             $options['removePlugins'] = 'sourcearea';
