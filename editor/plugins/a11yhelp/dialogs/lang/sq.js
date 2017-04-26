@@ -1,5 +1,5 @@
 ﻿/*
- Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+ Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 CKEDITOR.plugins.setLang("a11yhelp", "sq", {
@@ -49,25 +49,17 @@ CKEDITOR.plugins.setLang("a11yhelp", "sq", {
             },
             {name: "Ndihmë Qasjeje", legend: "Shtyp ${a11yHelp}"}]
     }],
-    backspace: "Prapa",
     tab: "Fletë",
-    enter: "Enter",
-    shift: "Shift",
-    ctrl: "Ctrl",
-    alt: "Alt",
     pause: "Pause",
     capslock: "Caps Lock",
     escape: "Escape",
     pageUp: "Page Up",
     pageDown: "Page Down",
-    end: "End",
-    home: "Home",
     leftArrow: "Shenja majtas",
     upArrow: "Shenja sipër",
     rightArrow: "Shenja djathtas",
     downArrow: "Shenja poshtë",
     insert: "Shto",
-    "delete": "Grise",
     leftWindowKey: "Left Windows key",
     rightWindowKey: "Right Windows key",
     selectKey: "Select key",

@@ -2,7 +2,10 @@
 
 namespace bajadev\ckeditor\actions;
 
+use bajadev\ckeditor\models\File;
 use Yii;
+use yii\base\Security;
+use yii\helpers\FileHelper;
 use yii\web\ViewAction;
 use yii\helpers\Inflector;
 use bajadev\ckeditor\BrowseAssets;
@@ -33,11 +36,17 @@ class BrowseAction extends ViewAction
      */
     public $maxHeight = 800;
     /**
+     * @var int image quality
+     */
+    public $quality = 80;
+    /**
      * @var bool Use Hash for filename
      */
     public $useHash = true;
 
-    public function init() {
+    public function init()
+    {
+        Yii::$app->controller->enableCsrfValidation = false;
         $this->registerTranslations();
     }
 
@@ -63,67 +72,48 @@ class BrowseAction extends ViewAction
      */
     public function run()
     {
+        if (!file_exists($this->getPath())) {
+            FileHelper::createDirectory($this->getPath());
+        }
 
-        if(Yii::$app->request->isPost) {
+        if (Yii::$app->request->isPost) {
             $post = Yii::$app->request->post();
-            if(!empty($post['method'])) {
+            if (!empty($post['method'])) {
                 $file = basename($post['file']);
 
-                if(file_exists($this->getPath().$file)) {
-                    unlink($this->getPath().$file);
+                if (file_exists($this->getPath() . $file)) {
+                    unlink($this->getPath() . $file);
                 }
 
             } else {
                 $image = \yii\web\UploadedFile::getInstanceByName('upload');
-                if(!empty($image)) {
-                    $imageFileType = strtolower(pathinfo($image->name, PATHINFO_EXTENSION));
-                    $allowed = ['png', 'jpg', 'gif', 'jpeg'];
-                    if(!empty($image) and in_array($imageFileType, $allowed)) {
-                        $fileName = $this->getFileName($image);
-                        $image->saveAs($this->getPath().$fileName);
+                $model = new File();
+                $model->file = $image;
 
-                        $imagine = Image::getImagine();
-                        $photo = $imagine->open($this->getPath().$fileName);
-                        $photo->thumbnail(new Box($this->maxWidth, $this->maxHeight))
-                            ->save($this->getPath().$fileName, ['quality' => 90]);
-                    }
+                if ($model->validate()) {
+                    $fileName = $this->getFileName($image);
+                    $image->saveAs($this->getPath() . $fileName);
+
+                    $imagine = Image::getImagine();
+                    $photo = $imagine->open($this->getPath() . $fileName);
+                    $photo->thumbnail(new Box($this->maxWidth, $this->maxHeight))
+                        ->save($this->getPath() . $fileName, ['quality' => $this->quality]);
+                } else {
+                    echo "<script type='text/javascript'>alert('" . $model->getFirstError('file') . "');</script>";
+                    exit;
                 }
 
             }
         }
 
-        $data['url'] = $this->getUrl();
-        $data['path'] = $this->getPath();
-        $data['ext'] = $this->getFileExt();
-
         BrowseAssets::register($this->controller->view);
         $this->controller->layout = '@vendor/bajadev/yii2-ckeditor/views/layout/image';
+        $images = FileHelper::findFiles($this->getPath(), ['recursive' => false]);
 
         return $this->controller->render('@vendor/bajadev/yii2-ckeditor/views/browse', [
-            'data' => $data
+            'images' => $images,
+            'url' => $this->getUrl()
         ]);
-    }
-
-    private function getFileName($image) {
-
-        $imageFileType = strtolower(pathinfo($image->name, PATHINFO_EXTENSION));
-        $fileName = Inflector::slug(str_replace($imageFileType, '', $image->name), '_');
-
-        if($this->useHash) {
-            $fileName = hash('md5', Yii::getAlias($fileName));
-            $rand = rand(10000, 99999);
-            return $rand . '_' . $fileName . '.' . $imageFileType;
-        } else {
-            return $fileName.'.'.$imageFileType;
-        }
-    }
-
-    /**
-     * @return string
-     */
-    private function getUrl()
-    {
-        return Yii::getAlias($this->url);
     }
 
     /**
@@ -134,15 +124,24 @@ class BrowseAction extends ViewAction
         return Yii::getAlias($this->path);
     }
 
+    private function getFileName($image)
+    {
+
+        if ($this->useHash) {
+            $security = new Security();
+            $fileName = $security->generateRandomString(16);
+
+            return $fileName . '.' . $image->getExtension();
+        } else {
+            return $image->name . '.' . $image->getExtension();
+        }
+    }
+
     /**
      * @return string
      */
-    private function getFileExt()
+    private function getUrl()
     {
-        if (!isset($_COOKIE["file_extens"])) {
-            return "no";
-        } else {
-            return $_COOKIE["file_extens"];
-        }
+        return Yii::getAlias($this->url);
     }
 }

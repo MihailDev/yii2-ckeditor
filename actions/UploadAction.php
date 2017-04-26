@@ -2,7 +2,9 @@
 
 namespace bajadev\ckeditor\actions;
 
+use bajadev\ckeditor\models\File;
 use Yii;
+use yii\base\Security;
 use yii\web\ViewAction;
 use yii\helpers\Inflector;
 use Imagine\Image\Box;
@@ -31,13 +33,16 @@ class UploadAction extends ViewAction
      */
     public $maxHeight = 800;
     /**
+     * @var int image quality
+     */
+    public $quality = 80;
+    /**
      * @var bool Use Hash for filename
      */
     public $useHash = true;
 
     public function init()
     {
-        parent::init();
         Yii::$app->controller->enableCsrfValidation = false;
         $this->registerTranslations();
     }
@@ -66,43 +71,58 @@ class UploadAction extends ViewAction
     public function run()
     {
 
+        if (!file_exists($this->getPath())) {
+            FileHelper::createDirectory($this->getPath());
+        }
+
         if (Yii::$app->request->isPost) {
+
             $image = \yii\web\UploadedFile::getInstanceByName('upload');
-            $imageFileType = strtolower(pathinfo($image->name, PATHINFO_EXTENSION));
-            $allowed = ['png', 'jpg', 'gif', 'jpeg'];
-            if (!empty($image) and in_array($imageFileType, $allowed)) {
+            $model = new File();
+            $model->file = $image;
+
+            if ($model->validate()) {
                 $fileName = $this->getFileName($image);
                 $image->saveAs($this->getPath() . $fileName);
+
                 $imagine = Image::getImagine();
                 $photo = $imagine->open($this->getPath() . $fileName);
                 $photo->thumbnail(new Box($this->maxWidth, $this->maxHeight))
-                    ->save($this->getPath() . $fileName, ['quality' => 90]);
+                    ->save($this->getPath() . $fileName, ['quality' => $this->quality]);
+
                 if (isset($_GET['CKEditorFuncNum'])) {
                     $CKEditorFuncNum = $_GET['CKEditorFuncNum'];
                     $ckfile = $this->getUrl() . $fileName;
                     echo "<script type='text/javascript'>window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$ckfile', '');</script>";
                     exit;
                 }
+
             } else {
-                echo "<script type='text/javascript'>alert('".Yii::t('bajadev/ckeditor', 'File upload stopped by extension')."');</script>";
+                echo "<script type='text/javascript'>alert('" . $model->getFirstError('file') . "');</script>";
                 exit;
             }
-
         }
 
     }
 
-    private function getFileName($image) {
+    /**
+     * @return string
+     */
+    private function getPath()
+    {
+        return Yii::getAlias($this->path);
+    }
 
-        $imageFileType = strtolower(pathinfo($image->name, PATHINFO_EXTENSION));
-        $fileName = Inflector::slug(str_replace($imageFileType, '', $image->name), '_');
+    private function getFileName($image)
+    {
 
-        if($this->useHash) {
-            $fileName = hash('md5', Yii::getAlias($fileName));
-            $rand = rand(10000, 99999);
-            return $rand . '_' . $fileName . '.' . $imageFileType;
+        if ($this->useHash) {
+            $security = new Security();
+            $fileName = $security->generateRandomString(16);
+
+            return $fileName . '.' . $image->getExtension();
         } else {
-            return $fileName.'.'.$imageFileType;
+            return $image->name . '.' . $image->getExtension();
         }
     }
 
@@ -112,13 +132,5 @@ class UploadAction extends ViewAction
     private function getUrl()
     {
         return Yii::getAlias($this->url);
-    }
-
-    /**
-     * @return string
-     */
-    private function getPath()
-    {
-        return Yii::getAlias($this->path);
     }
 }

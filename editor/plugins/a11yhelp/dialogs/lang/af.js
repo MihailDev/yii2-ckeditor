@@ -1,5 +1,5 @@
 ﻿/*
- Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+ Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 CKEDITOR.plugins.setLang("a11yhelp", "af", {
@@ -45,25 +45,17 @@ CKEDITOR.plugins.setLang("a11yhelp", "af", {
         },
             {name: " Accessibility Help", legend: "Press ${a11yHelp}"}]
     }],
-    backspace: "Backspace",
     tab: "Tab",
-    enter: "Enter",
-    shift: "Shift",
-    ctrl: "Ctrl",
-    alt: "Alt",
     pause: "Pouse",
     capslock: "Hoofletterslot",
     escape: "Ontsnap",
     pageUp: "Blaaiop",
     pageDown: "Blaaiaf",
-    end: "Einde",
-    home: "Tuis",
     leftArrow: "Linkspyl",
     upArrow: "Oppyl",
     rightArrow: "Regterpyl",
     downArrow: "Afpyl",
     insert: "Toevoeg",
-    "delete": "Verwyder",
     leftWindowKey: "Left Windows key",
     rightWindowKey: "Right Windows key",
     selectKey: "Select key",

@@ -45,7 +45,7 @@ $this->title = Yii::t('bajadev/ckeditor', 'Browse images');
     </div>
 </div>
 <div id="files" class="row">
-    <?= $this->render('load-images', ['data' => $data]); ?>
+    <?= $this->render('load-images', ['url' => $url, 'images' => $images]); ?>
 </div>
 
 <div id="imageFullSreen" class="lightbox popout">

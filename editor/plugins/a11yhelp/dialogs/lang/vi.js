@@ -1,5 +1,5 @@
 ﻿/*
- Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+ Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 CKEDITOR.plugins.setLang("a11yhelp", "vi", {
@@ -49,25 +49,17 @@ CKEDITOR.plugins.setLang("a11yhelp", "vi", {
                     legend: "Ấn ${accessNextSpace} để truy cập đến phần tập trung khoảng cách sau phần còn sót lại của khoảng cách gần nhất vốn không tác động đến được , thí dụ: hai yếu tố điều chỉnh HR. Lặp lại các phím kết họep này để vươn đến phần khoảng cách."
                 }, {name: "Trợ giúp liên quan", legend: "Nhấn ${a11yHelp}"}]
         }],
-    backspace: "Phím Backspace",
     tab: "Phím Tab",
-    enter: "Phím Tab",
-    shift: "Phím Shift",
-    ctrl: "Phím Ctrl",
-    alt: "Phím Alt",
     pause: "Phím Pause",
     capslock: "Phím Caps Lock",
     escape: "Phím Escape",
     pageUp: "Phím Page Up",
     pageDown: "Phím Page Down",
-    end: "Phím End",
-    home: "Phím Home",
     leftArrow: "Phím Left Arrow",
     upArrow: "Phím Up Arrow",
     rightArrow: "Phím Right Arrow",
     downArrow: "Phím Down Arrow",
     insert: "Chèn",
-    "delete": "Xóa",
     leftWindowKey: "Phím Left Windows",
     rightWindowKey: "Phím Right Windows ",
     selectKey: "Chọn phím",

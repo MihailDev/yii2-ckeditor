@@ -1,28 +1,28 @@
 ﻿/*
- Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+ Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  For licensing, see LICENSE.md or http://ckeditor.com/license
  */
-CKEDITOR.dialog.add("a11yHelp", function (l) {
-    var a = l.lang.a11yhelp, n = CKEDITOR.tools.getNextId(), e = {
-        8: a.backspace,
+CKEDITOR.dialog.add("a11yHelp", function (h) {
+    var a = h.lang.a11yhelp, b = h.lang.common.keyboard, n = CKEDITOR.tools.getNextId(), e = {
+        8: b[8],
         9: a.tab,
-        13: a.enter,
-        16: a.shift,
-        17: a.ctrl,
-        18: a.alt,
+        13: b[13],
+        16: b[16],
+        17: b[17],
+        18: b[18],
         19: a.pause,
         20: a.capslock,
         27: a.escape,
         33: a.pageUp,
         34: a.pageDown,
-        35: a.end,
-        36: a.home,
+        35: b[35],
+        36: b[36],
         37: a.leftArrow,
         38: a.upArrow,
         39: a.rightArrow,
         40: a.downArrow,
         45: a.insert,
-        46: a["delete"],
+        46: b[46],
         91: a.leftWindowKey,
         92: a.rightWindowKey,
         93: a.selectKey,
@@ -67,40 +67,40 @@ CKEDITOR.dialog.add("a11yHelp", function (l) {
         221: a.closeBracket,
         222: a.singleQuote
     };
-    e[CKEDITOR.ALT] = a.alt;
-    e[CKEDITOR.SHIFT] = a.shift;
-    e[CKEDITOR.CTRL] = a.ctrl;
-    var f = [CKEDITOR.ALT, CKEDITOR.SHIFT,
+    e[CKEDITOR.ALT] = b[18];
+    e[CKEDITOR.SHIFT] = b[16];
+    e[CKEDITOR.CTRL] = b[17];
+    var g = [CKEDITOR.ALT, CKEDITOR.SHIFT,
         CKEDITOR.CTRL], p = /\$\{(.*?)\}/g, t = function () {
-        var a = l.keystrokeHandler.keystrokes, g = {}, c;
-        for (c in a)g[a[c]] = c;
-        return function (a, c) {
-            var b;
-            if (g[c]) {
-                b = g[c];
-                for (var h, k, m = [], d = 0; d < f.length; d++)k = f[d], h = b / f[d], 1 < h && 2 >= h && (b -= k, m.push(e[k]));
-                m.push(e[b] || String.fromCharCode(b));
-                b = m.join("+")
-            } else b = a;
-            return b
+        var a = h.keystrokeHandler.keystrokes, b = {}, d;
+        for (d in a)b[a[d]] = d;
+        return function (a, d) {
+            var c;
+            if (b[d]) {
+                c = b[d];
+                for (var k, l, m = [], f = 0; f < g.length; f++)l = g[f], k = c / g[f], 1 < k && 2 >= k && (c -= l, m.push(e[l]));
+                m.push(e[c] || String.fromCharCode(c));
+                c = m.join("+")
+            } else c = a;
+            return c
         }
     }();
     return {
         title: a.title, minWidth: 600, minHeight: 400, contents: [{
-            id: "info", label: l.lang.common.generalTab, expand: !0, elements: [{
+            id: "info", label: h.lang.common.generalTab, expand: !0, elements: [{
                 type: "html", id: "legends", style: "white-space:normal;", focus: function () {
                     this.getElement().focus()
                 },
                 html: function () {
-                    for (var e = '\x3cdiv class\x3d"cke_accessibility_legend" role\x3d"document" aria-labelledby\x3d"' + n + '_arialbl" tabIndex\x3d"-1"\x3e%1\x3c/div\x3e\x3cspan id\x3d"' + n + '_arialbl" class\x3d"cke_voice_label"\x3e' + a.contents + " \x3c/span\x3e", g = [], c = a.legend, l = c.length, f = 0; f < l; f++) {
-                        for (var b = c[f], h = [], k = b.items, m = k.length, d = 0; d < m; d++) {
-                            var q = k[d], r = q.legend.replace(p, t);
-                            r.match(p) || h.push("\x3cdt\x3e%1\x3c/dt\x3e\x3cdd\x3e%2\x3c/dd\x3e".replace("%1", q.name).replace("%2", r))
+                    for (var b = '\x3cdiv class\x3d"cke_accessibility_legend" role\x3d"document" aria-labelledby\x3d"' + n + '_arialbl" tabIndex\x3d"-1"\x3e%1\x3c/div\x3e\x3cspan id\x3d"' + n + '_arialbl" class\x3d"cke_voice_label"\x3e' + a.contents + " \x3c/span\x3e", e = [], d = a.legend, h = d.length, g = 0; g < h; g++) {
+                        for (var c = d[g], k = [], l = c.items, m = l.length, f = 0; f < m; f++) {
+                            var q = l[f], r = q.legend.replace(p, t);
+                            r.match(p) || k.push("\x3cdt\x3e%1\x3c/dt\x3e\x3cdd\x3e%2\x3c/dd\x3e".replace("%1", q.name).replace("%2", r))
                         }
-                        g.push("\x3ch1\x3e%1\x3c/h1\x3e\x3cdl\x3e%2\x3c/dl\x3e".replace("%1",
-                            b.name).replace("%2", h.join("")))
+                        e.push("\x3ch1\x3e%1\x3c/h1\x3e\x3cdl\x3e%2\x3c/dl\x3e".replace("%1",
+                            c.name).replace("%2", k.join("")))
                     }
-                    return e.replace("%1", g.join(""))
+                    return b.replace("%1", e.join(""))
                 }() + '\x3cstyle type\x3d"text/css"\x3e.cke_accessibility_legend{width:600px;height:400px;padding-right:5px;overflow-y:auto;overflow-x:hidden;}.cke_browser_quirks .cke_accessibility_legend,{height:390px}.cke_accessibility_legend *{white-space:normal;}.cke_accessibility_legend h1{font-size: 20px;border-bottom: 1px solid #AAA;margin: 5px 0px 15px;}.cke_accessibility_legend dl{margin-left: 5px;}.cke_accessibility_legend dt{font-size: 13px;font-weight: bold;}.cke_accessibility_legend dd{margin:10px}\x3c/style\x3e'
             }]
         }],
