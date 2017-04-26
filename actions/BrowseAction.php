@@ -46,7 +46,6 @@ class BrowseAction extends ViewAction
 
     public function init()
     {
-        Yii::$app->controller->enableCsrfValidation = false;
         $this->registerTranslations();
     }
 

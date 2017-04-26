@@ -43,7 +43,6 @@ class UploadAction extends ViewAction
 
     public function init()
     {
-        Yii::$app->controller->enableCsrfValidation = false;
         $this->registerTranslations();
     }
 

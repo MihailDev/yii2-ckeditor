@@ -8,7 +8,7 @@ class Assets extends AssetBundle{
 
     public $js = [
         'ckeditor.js',
-		'js.js',
+		'assets/js.js',
     ];
 	public $depends = [
 		'yii\web\YiiAsset'
