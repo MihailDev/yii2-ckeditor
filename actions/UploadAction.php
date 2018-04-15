@@ -9,6 +9,7 @@ use yii\web\ViewAction;
 use yii\helpers\Inflector;
 use Imagine\Image\Box;
 use yii\imagine\Image;
+use yii\helpers\FileHelper;
 
 /**
  * Class BrowseAction
