@@ -59,7 +59,7 @@ class CKEditor extends InputWidget{
         $options['removeButtons'] = 'Subscript,Superscript,Flash,Table,HorizontalRule,Smiley,SpecialChar,PageBreak,Iframe';
         $options['removePlugins'] = 'elementspath';
         $options['resize_enabled'] = false;
-
+        $options['extraPlugins'] = 'confighelper';
 
         $this->editorOptions = ArrayHelper::merge($options, $this->editorOptions);
     }
@@ -82,9 +82,11 @@ class CKEditor extends InputWidget{
 
         $options['removeButtons'] = 'Smiley,Iframe';
 
-        if($this->_inline){
-            $options['extraPlugins'] = 'sourcedialog';
+        if ($this->_inline) {
+            $options['extraPlugins'] = 'sourcedialog,confighelper';
             $options['removePlugins'] = 'sourcearea';
+        } else {
+            $options['extraPlugins'] = 'confighelper';
         }
 
         $this->editorOptions = ArrayHelper::merge($options, $this->editorOptions);
@@ -110,9 +112,11 @@ class CKEditor extends InputWidget{
             ['name' => 'others'],
         ];
 
-        if($this->_inline){
-            $options['extraPlugins'] = 'sourcedialog';
+        if ($this->_inline) {
+            $options['extraPlugins'] = 'sourcedialog,confighelper';
             $options['removePlugins'] = 'sourcearea';
+        } else {
+            $options['extraPlugins'] = 'confighelper';
         }
 
         $this->editorOptions = ArrayHelper::merge($options, $this->editorOptions);
@@ -130,15 +134,15 @@ class CKEditor extends InputWidget{
         }
 
         echo Html::endTag('div');
-		$js = [
-			'mihaildev.ckEditor.registerOnChange('.Json::encode($this->options['id']).');'
-		];
+        $js = [
+            'mihaildev.ckEditor.registerOnChange('.Json::encode($this->options['id']).');'
+        ];
 
-		if(isset($this->editorOptions['filebrowserUploadUrl']))
-			$js[] = "mihaildev.ckEditor.registerCsrf();";
+        if(isset($this->editorOptions['filebrowserUploadUrl']))
+            $js[] = "mihaildev.ckEditor.registerCsrf();";
 
-		if(!isset($this->editorOptions['on']['instanceReady']))
-			$this->editorOptions['on']['instanceReady'] = new JsExpression("function( ev ){".implode(' ', $js)."}");
+        if(!isset($this->editorOptions['on']['instanceReady']))
+            $this->editorOptions['on']['instanceReady'] = new JsExpression("function( ev ){".implode(' ', $js)."}");
 
         if($this->_inline){
             $JavaScript = "CKEDITOR.inline(";
